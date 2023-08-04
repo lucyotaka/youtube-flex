@@ -1,0 +1,166 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+
+.youtube {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+}
+
+.nav {
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  border: 1px solid white;
+  height:20vh;
+  width: 100%;
+}
+
+.holder {
+  display:flex; 
+}
+
+.navsearch {
+  display: flex;
+}
+
+.search {
+  background-color:white;
+  width: 200px;
+  border-radius: 20px;
+  color:black;
+  padding: 5px;
+  margin-right:490px; 
+}
+
+.video {
+  background-color:white;
+  width: 80px;
+  border-radius: 20px;
+  color:black;
+  text-align:center;
+  padding: 5px;
+  margin-right: 50px;
+  jusify-content: center;
+  align-items:center;
+}
+
+.sign-in {
+  background-color:red;
+  width: 80px;
+  border-radius: 20px;
+  color:white;
+  text-align:center;
+  padding: 5px;
+  margin-right: 50px;
+  jusify-content: center;
+  align-items:center
+}
+
+.play {
+  background-color:white;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color:black;
+  padding: 5px;
+  jusify-content: center;
+  align-items:center;
+  margin-right:30px;
+}
+
+.rec {
+  background-color:white;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color:black;
+  padding: 5px;
+  jusify-content: center;
+  align-items:center
+}
+
+.main {
+  border: 1px solid blue;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  border: 1px solid green;
+  width: 20%;
+  height: 100%;
+  text-align: left;
+  
+}
+
+.content {
+  border: 1px solid yellow;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.pics {
+  height: 55%;
+  width: 95%;
+  border: 1px solid blue;
+}
+
+.pics img{
+  width:1033px;
+  height:258px;
+}
+
+.series {
+  height: 40%;
+  width: 95%;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movies {
+  height: 90%;
+  width: 22%; 
+  border: 1px solid white;
+}
+
+.movies img {
+  width: 228px;
+  height: 145px;
+}
+
+.text {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 95%;
+}
+
+.nav img {
+  width:100px;
+  margin-top:5px;
+  margin-bottom:3px;
+  margin-left: 20px;
+  margin-right: 150px;
+}
